@@ -1,0 +1,27 @@
+{
+    "name": "wenslim/laravel-neditor",
+    "description": "neditor for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wenslim",
+            "email": "396902854@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wenslim\\Neditor\\": "./src"
+        },
+        "files": [
+            "bootstrap/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wenslim\\Neditor\\NeditorServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
