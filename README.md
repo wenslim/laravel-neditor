@@ -6,6 +6,8 @@ neditor for Laravel 5.5+
 
 > `neditor`: [官方地址](https://github.com/notadd/neditor)
 
+![效果](https://www.notadd.com/src/neditor-demo.webp)
+
 ## 安装
 
 ```shell
