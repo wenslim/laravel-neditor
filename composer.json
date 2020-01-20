@@ -19,9 +19,11 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wenslim\\Neditor\\NeditorServiceProvider"
+                "Wenslim\\Neditor\\Providers\\NeditorServiceProvider"
             ]
         }
     },
-    "require": {}
+    "require": {
+        "qiniu/php-sdk": "^7.2"
+    }
 }

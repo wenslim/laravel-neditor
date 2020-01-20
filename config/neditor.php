@@ -19,6 +19,10 @@ return [
         "charts", "print", "preview", "searchreplace", "drafts", "help"
     ],
     'initialContent' => '欢迎使用 neditor',
+    # 文件上传方式: 'local', 'qiniu'
+    'uploadType' => 'local',
     'imageMaxSize' => '2048000',
-    'imageUrlPrefix' => '/images/',
+    # 本地 'http://xxxxxx/images/'
+    # qiniu: 'https://xxxxxx/'
+    'imageUrlPrefix' => '',
 ];

@@ -6,7 +6,7 @@ if (! function_exists("neditor_assets")) {
     {
         # 上传配置
         $server = route('neditor.server');
-        $imageUrlPrefix = env('APP_URL') . config('neditor.imageUrlPrefix');
+        $imageUrlPrefix = config('neditor.imageUrlPrefix');
 
         # 用户配置
         $width = config('neditor.width');
